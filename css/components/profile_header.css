@@ -1,0 +1,25 @@
+.profile-header-wrapper {
+  background-color: #ffbe41;
+  background-size: cover;
+}
+
+.profile-header-infos {
+  text-align: center;
+  color: rgb(255,255,255);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+
+h1 {
+  font-size: 30px;
+
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+/* Your profile header CSS code here */
+

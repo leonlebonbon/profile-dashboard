@@ -1,0 +1,39 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  background-color: #ffbe41;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  }/* Your tabs CSS code here */
+
+.tabs p {
+  color: rgb(150,150,150);
+}
+
+.tab.active {
+  background-color: white;
+  color: black;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin: 0;
+  flex: 0 0 25%;
+  border-top-left-radius: 20px;
+}
+
+.tab {
+  background-color: #fcc55f;
+  color: white;
+  margin: 0;
+  flex: 0 0 25%;
+}
+
+.tab:hover {
+  opacity: 0.6;
+}
+
+.tab:last-child {
+  border-top-right-radius: 20px;
+}
+
